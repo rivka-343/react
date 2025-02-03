@@ -20,7 +20,7 @@ const RecipeDetail = () => {
                         ))}
                     </ul>
                 </li>
-                <li><strong>Instructions: </strong>{recipe.ingredients}</li>
+                <li><strong>Instructions: </strong>{recipe.instructions}</li>
             </ul>
         </div>
     );
