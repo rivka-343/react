@@ -1,0 +1,94 @@
+/* General Design for About Page */
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafa; /* Light Background */
+    min-height: 100vh;
+    padding: 0 20px;
+    margin: 0;
+}
+
+/* Content Box with Clean and Elegant Design */
+.about-content {
+    background-color: #ffffff;
+    padding: 40px;
+    width: 100%;
+    max-width: 1200px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Main Title */
+.about-content h1 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #1976d2;
+    margin-bottom: 20px;
+}
+
+/* Description Paragraph */
+.about-description {
+    font-size: 20px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+/* Section Title */
+.about-content h2 {
+    font-size: 28px;
+    color: #1565c0;
+    margin-bottom: 15px;
+}
+
+/* Subheading */
+.about-content h3 {
+    font-size: 22px;
+    color: #0d47a1;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/* Advantages List */
+.about-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.about-content li {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 10px;
+}
+
+/* Footer Section */
+.about-footer {
+    font-size: 18px;
+    margin-top: 30px;
+    color: #555;
+    font-style: italic;
+}
+
+/* Visual Appeal */
+@media (max-width: 768px) {
+    .about-content {
+        padding: 20px;
+    }
+    
+    .about-content h1 {
+        font-size: 28px;
+    }
+
+    .about-description {
+        font-size: 18px;
+    }
+
+    .about-content h2 {
+        font-size: 24px;
+    }
+}
