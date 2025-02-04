@@ -9,7 +9,7 @@ class RecipeStore {
         this.recipes = data;
     }
     async addRecipe(newRecipe :Recipe) {
-           const response = await fetch('http://localhost:3000/api/recipes/', {
+            const response = await fetch('http://localhost:3000/api/recipes/', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
